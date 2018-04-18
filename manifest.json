@@ -1,0 +1,16 @@
+{
+   "browser_action": {
+      "default_icon": "nofoot.png",
+      "default_popup": "popup.html",
+      "default_title": "Make Donald Drumpf Again!"
+   },
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Add this app to your Chrome browser and replace all instances of \"foot\" with \"tgfdp.\"",
+   "name": "NoFOOT",
+   "version": "1.0",
+   "manifest_version": 2
+}
